@@ -1,0 +1,73 @@
+.restaurant-admin {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .restaurant-admin h1 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #e55342;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  li h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  li p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  li button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #e55342;
+  }

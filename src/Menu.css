@@ -1,0 +1,67 @@
+/* Menu.css */
+.menu-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #fff;
+  }
+  
+  .menu-list li span {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-item, .edit-item {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-item input,
+  .edit-item input,
+  .add-item textarea,
+  .edit-item textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-item button,
+  .edit-item button {
+    width: 100%;
+  }

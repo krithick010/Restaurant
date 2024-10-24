@@ -1,0 +1,35 @@
+{
+    "menuItems": [
+      {
+        "id": 1,
+        "name": "Authentic Italian Pasta",
+        "price": 12.99,
+        "description": "Delicious pasta with a rich tomato sauce",
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": "Grilled Seafood Platter",
+        "price": 19.99,
+        "description": "A variety of grilled seafood with dipping sauces",
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": "Wood-fired Pizzas",
+        "price": 15.99,
+        "description": "Crispy pizzas baked in a wood-fired oven",
+        "available": true
+      }
+    ],
+    "reservations": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "date": "2024-10-20",
+        "time": "19:00",
+        "people": 4,
+        "status": "confirmed"
+      }
+    ]
+  }
